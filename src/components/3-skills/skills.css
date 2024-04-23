@@ -1,0 +1,26 @@
+.skillsContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 3.12rem;
+    padding: 3.75rem 0;
+    
+}
+
+/* If the browser window is 768px or smaller */
+@media only screen and (max-width: 768px) {
+    .skillsContainer{
+    grid-template-columns: repeat(2, auto); 
+    padding: 2.5rem 0;
+    }
+  }
+  /* If the browser window is 480px or smaller */
+  @media only screen and (max-width: 480px) {
+    .skillsContainer{
+        grid-template-columns: auto; 
+        justify-content: center;
+        text-align: center;
+        border-bottom: 1px solid var(--Grey);
+        
+  }
+
+  }

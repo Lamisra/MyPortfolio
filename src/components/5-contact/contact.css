@@ -1,0 +1,93 @@
+.contactContainer {
+  background-color: var(--DarkGrey);
+  padding: 3.75rem 0; /*60px*/
+
+  width: 80%;
+  max-width: 64rem; /*1024px*/
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.contactContainer p {
+  margin-top: 2rem;
+  padding-right: 3rem;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #ffffff;
+}
+
+.rightSide form {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightSide form input,
+.rightSide form textarea {
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--Grey);
+  padding-top: 1.25rem; /*20px*/
+  padding-bottom: 0.62rem; /*10px*/
+
+  font-size: 1.13rem; /*18px*/
+  line-height: 1.75rem;
+}
+
+.rightSide form button {
+  font-weight: bolder;
+  letter-spacing: 2.5px;
+
+  background: none;
+  border: none;
+  margin-left: auto;
+  padding-top: 1.9rem; /*30px*/
+
+  padding-bottom: 0.62rem; /*10px*/
+  border-bottom-style: solid;
+  border-bottom-width: 2.5px;
+  border-bottom-color: var(--Green);
+  width: fit-content;
+  transition: .5s ease;
+}
+.rightSide form button:hover {
+  cursor: pointer;
+
+  color: var(--Green);
+  font-size: large;
+}
+.rightSide form button:active {
+  scale: 0.9;
+}
+
+
+
+
+/* If the browser window is 768px or smaller */
+@media only screen and (max-width: 768px) {
+  .contactContainer {
+    flex-direction: column;
+    width: 60%;
+    text-align: center;
+  }
+  .leftSide .p {
+    text-align: center;
+    padding: 0;
+  }
+}
+
+/* If the browser window is 480px or smaller */
+@media only screen and (max-width: 480px) {
+  .contactContainer {
+    width: 90%;
+  }
+}

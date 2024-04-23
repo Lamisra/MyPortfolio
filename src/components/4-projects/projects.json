@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "title": "TO-DO List",
+      "description": "A simple to-do list application.",
+      "image": "todolist.jpg",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "viewProjectLink": "https://sweet-pastelito-0f88a6.netlify.app/",
+      "viewCodeLink": "https://github.com/Lamisra/To-Do-List"
+    },
+    {
+      "id": 2,
+      "title": "Recipe Page",
+      "description": "Description of another project.",
+      "image": "RecipePage.jpg",
+      "tags": ["HTML", "CSS", "FrontendMentor"],
+      "viewProjectLink": "https://lamisra.github.io/Recipe-Page-Challenge/",
+      "viewCodeLink": "https://github.com/Lamisra/Recipe-Page-Challenge"
+    },
+    {
+      "id": 3,
+      "title": "Social Links",
+      "description": "Description of yet another project.",
+      "image": "SocialLinks.jpg",
+      "tags": ["HTML", "CSS", "Tailwind", "FrontendMentor"],
+      "viewProjectLink": "https://stellar-raindrop-4172ad.netlify.app/",
+      "viewCodeLink": "https://github.com/Lamisra/social-links-profile-main"
+    },
+    {
+      "id": 4,
+      "title": "My Portfolio",
+      "description": "Description of yet another project.",
+      "image": "portfolio.jpg",
+      "tags": ["HTML", "CSS", "React", "FrontendMentor"],
+      "viewProjectLink": "https://isralamrani.com/",
+      "viewCodeLink": "https://github.com/Lamisra/MyPortfolio"
+    }
+  ]
+  

@@ -3,16 +3,37 @@ import './skills.css';
 
 const Skills = () => {
   return (
-    <div>Skills
-    <div className='grid-container'>
+    <div className='skillsContainer'>
 
-    <div className='grid-item grid-item-1'>1</div>
-    <div className='grid-item grid-item-2'>2</div>
+      <div className='L' >
+        HTML
+      </div>
+
+      <div className='L' >
+        CSS
+      </div>
+
+      <div className='L' >
+        JavaSript
+      </div>
+
+      <div className='L' >
+        Tailwind
+      </div>
+
+      <div className='L' >
+        React
+      </div>
+
+      <div className='L' >
+        Git / Github
+      </div>
+
+
+
 
     </div>
 
-    </div>
-    
   )
 }
 

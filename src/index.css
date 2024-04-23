@@ -1,38 +1,103 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
 
-:root{
+:root {
+  /* Colors: */
   --Black: #151515;
   --DarkGrey: #242424;
   --Green: #4ee1a0;
   --Grey: #d9d9d9;
   --White: #ffffff;
-
 }
 
-*, *::after, *::before{
+/* Typography Classes: */
+.xl {
+  font-size: 5.5rem; /*88px*/
+  letter-spacing: -0.16rem;
+  font-weight: bold;
+  line-height: 5.5rem;
+}
+.L {
+  font-size: 3rem; /*48px*/
+  letter-spacing: -0.094rem;
+  font-weight: bold;
+  line-height: 3.5rem;
+}
+.M {
+  font-size: 1.5rem; /*24px*/
+  font-weight: bold;
+  line-height: 2rem;
+}
+.p {
+  font-size: 1.13rem; /*18px*/
+  line-height: 1.75rem;
+}
+logo {
+  font-size: 2rem; /*32px*/
+  letter-spacing: -0.03rem;
+  font-weight: bold;
+}
+
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
-*{
+* {
   margin: 0;
   padding: 0;
-}
-
-body{
-  background-color: var(--Black);
   font-family: "Space Grotesk", sans-serif;
   color: #ffffff;
 }
 
-.container{
-  
-  width: 80%;
-  max-width: 1024px;
-  min-height: 100vh;
-  margin-left: auto;
-  margin-right: auto;
+body {
+  background-color: var(--Black);
   
 }
 
-.border{
+.mainContainer {
+  width: 80%;
+  max-width: 64rem; /*1024px*/
+  min-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footerContainer {
+  background-color: var(--DarkGrey);
+  min-width: 100%;
+}
+
+.credits{
+  font-size: 0.7rem;
+  text-align: center;
+  font-weight:lighter;
+  opacity: 0.8;
+  
+}
+
+.border {
   border: 2px solid blueviolet;
+}
+
+/* If the browser window is 768px or smaller */
+@media only screen and (max-width: 768px) {
+
+  .mainContainer {
+    width: 95%;
+  }
+  .xl {
+    font-size: 4.5rem; /*72px*/
+  }
+}
+/* If the browser window is 480px or smaller */
+@media only screen and (max-width: 480px) {
+  
+  .xl {
+    font-size: 2.5rem; /*40px*/
+    letter-spacing: -0.06rem;
+    line-height: 2.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
 }
