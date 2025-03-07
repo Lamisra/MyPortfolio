@@ -1,6 +1,8 @@
 import React from 'react';
 import './hero.css';
-
+import githubIcon from '../assets/images/icon-github.svg';
+import linkedinIcon from '../assets/images/icon-linkedin.svg';
+import profilePic from '../assets/images/profile-pic.png';
 
 const Hero = () => {
   return (
@@ -42,8 +44,7 @@ const Hero = () => {
 
 
       {/* my main page */}
-      <img className='profilePicture' src='../src/assets/images/profile-pic.png' alt='profile picture' />
-
+ <img className='profilePicture' src={profilePic} alt='Profile' />
       <h2 className='xl'>
         Nice to meet you! <br />
         I'm <span>Isra Lamrani</span>.
