@@ -48,7 +48,8 @@ const Hero = () => {
         Nice to meet you! <br />
         I'm <span>Isra Lamrani</span>.
       </h2>
-
+<img src=".../cat.jpeg">
+      
       <p className='p'>
         Based in Montreal, I'm a front-end developer<br />
         passionate about building accessible web apps
