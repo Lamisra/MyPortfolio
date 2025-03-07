@@ -17,12 +17,12 @@ const Hero = () => {
             <ul>
               <li>
                 <a href="https://github.com/Lamisra" target="_blank">
-                  <img src="../src/assets/images/icon-github.svg" alt="github icon" />
+                  <img src="/images/icon-github.svg" alt="GitHub icon" />
                 </a>
               </li>
               <li>
                 <a href="https://www.linkedin.com/in/isra-lamrani/" target="_blank">
-                  <img src="src\assets\images\icon-linkedin.svg" alt="linkedin icon" />
+                 <img src="/images/icon-linkedin.svg" alt="LinkedIn icon" />
                 </a>
               </li>
             </ul>
@@ -41,7 +41,7 @@ const Hero = () => {
 
 
       {/* my main page */}
- <img className='profilePicture' src='../assets/images/profile-pic.png' alt='profile picture' />
+<img className='profilePicture' src="/images/profile-pic.png" alt="Profile" />
       <h2 className='xl'>
         Nice to meet you! <br />
         I'm <span>Isra Lamrani</span>.
