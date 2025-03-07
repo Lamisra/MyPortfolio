@@ -42,7 +42,7 @@ const Hero = () => {
 
 
       {/* my main page */}
-      <img className='profilePicture' src='../src/assets/images/profile-pic.png' alt='profile picture' />
+      <img className='profilePicture' src='/assets/images/profile-pic.png' alt='profile picture' />
 
       <h2 className='xl'>
         ice to meet you! <br />
