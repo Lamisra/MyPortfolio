@@ -45,7 +45,7 @@ const Hero = () => {
       <img className='profilePicture' src='/assets/images/profile-pic.png' alt='profile picture' />
 
       <h2 className='xl'>
-        ice to meet you! <br />
+        Nice to meet you! <br />
         I'm <span>Isra Lamrani</span>.
       </h2>
 
