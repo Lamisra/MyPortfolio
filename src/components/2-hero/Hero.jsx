@@ -18,7 +18,9 @@ const Hero = () => {
             <ul>
               <li>
                 <a href="https://github.com/Lamisra" target="_blank">
-                  <img src="./src/assets/images/icon-github.svg" alt="github icon" />
+                  {/* <img src="./src/assets/images/icon-github.svg" alt="github icon" /> */}
+                  <img src={require('./assets/images/icon-github.svg')} alt="github icon" />
+
                 </a>
               </li>
               <li>
@@ -42,7 +44,9 @@ const Hero = () => {
 
 
       {/* my main page */}
-      <img className='profilePicture' src='../assets/images/profile-pic.png' alt='profile picture' />
+      {/* <img className='profilePicture' src='../assets/images/profile-pic.png' alt='profile picture' /> */}
+      <img className='profilePicture' src={require('../assets/images/profile-pic.png')} alt='profile picture' />
+
 
       <h2 className='xl'>
         Nice to meet you! <br />
