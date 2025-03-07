@@ -18,7 +18,7 @@ const Hero = () => {
             <ul>
               <li>
                 <a href="https://github.com/Lamisra" target="_blank">
-                  <img src="../src/assets/images/icon-github.svg" alt="github icon" />
+                  <img src="/assets/images/icon-github.svg" alt="github icon" />
                 </a>
               </li>
               <li>
