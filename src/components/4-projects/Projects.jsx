@@ -15,7 +15,7 @@ const Projects = () => {
       {projectsData.map(project => (
         <article key={project.id} className='Card'>
           <div className='image'>
-            <img src={`../src/assets/images/${project.image}`} alt='project picture' />
+            <img src={`/images/${project.image}`} alt='project picture' />
 
             <div className='View-Details'>
               <a className='button' href={project.viewProjectLink} target="_blank">VIEW PROJECT</a>
