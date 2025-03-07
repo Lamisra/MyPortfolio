@@ -49,7 +49,7 @@ const Hero = () => {
 
 
       <h2 className='xl'>
-        Nice to meet you! <br />
+        oice to meet you! <br />
         I'm <span>Isra Lamrani</span>.
       </h2>
 <img src=".../cat.jpeg">
